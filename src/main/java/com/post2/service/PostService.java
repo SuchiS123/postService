@@ -96,5 +96,8 @@ public class PostService {
         postDto.setContent(postById.getContent());
         postDto.setComments(forObject);
         return postDto;
+
+//        to return the postDto
+
     }
 }
