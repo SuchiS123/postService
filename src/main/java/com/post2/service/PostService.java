@@ -87,7 +87,7 @@ public class PostService {
         ArrayList forObject = restTemplate.getForObject("http://localhost:8082/api/comments/" + postId, ArrayList.class);
 
         Post postById = postRepository.findById(postId).orElseThrow(()-> new ResourceNotFound(
-                "Post Not Found"));
+                "Post Nottttttt Found"));
 
         PostDto postDto = new PostDto();
         postDto.setId(postById.getId());
